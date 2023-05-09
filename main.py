@@ -135,3 +135,11 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     salutation.add("Shalom")
     print(salutation)
+
+    #3 Supprimer un element
+    print("\n3) Suppression d'un element dans le set")
+    print("--------------------------------------------------")
+    salutation.remove("Hola")
+    print(salutation)
+    
+   
