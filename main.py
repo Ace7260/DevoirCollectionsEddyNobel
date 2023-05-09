@@ -60,3 +60,9 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     animaux.reverse()
     print(animaux)
+    
+    # #10 Vider la liste
+    print("\n10) Vidange de la liste")
+    print("--------------------------------------------------")
+    animaux.clear()
+    print(animaux)
