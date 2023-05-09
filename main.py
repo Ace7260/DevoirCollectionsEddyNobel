@@ -129,3 +129,9 @@ if __name__ == '__main__':
     print("\n1) Affichage du set")
     print("--------------------------------------------------")
     print(salutation)
+    
+    #2 Ajouter un element
+    print("\n2) Ajout d'un element dans le set")
+    print("--------------------------------------------------")
+    salutation.add("Shalom")
+    print(salutation)
