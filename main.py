@@ -14,4 +14,13 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     animaux[4] = "requin"
     print(animaux)
-
+   
+    #3- Creation d' une nouvelle liste
+    nouvelle_liste = []
+    # remplissage avec les elements de la liste precedente contenant la lettre "a"
+    for element in animaux:
+        if "a" in element:
+            nouvelle_liste.append(element)
+    print("\n3) les elements de la liste contenant la letter a:")
+    print("--------------------------------------------------")
+    print(nouvelle_liste)
