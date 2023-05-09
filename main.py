@@ -115,3 +115,7 @@ if __name__ == '__main__':
     chiffre = chiffre[:3] + (12,) + chiffre[3:]
     print(chiffre)
 
+    #6) Affichage de la nouvelle tuple
+    print("\n6) Affichage de la nouvelle tuple")
+    print("--------------------------------------------------")
+    print(chiffre)
