@@ -107,3 +107,11 @@ if __name__ == '__main__':
     chiffre = tuple(liste)
     # Affichage du nouveau tuple 
     print(chiffre) 
+    
+    #5) Ajouter un element a l'index numero 3
+    print("\n5) Ajouter un element a l'index numero 3")
+    print("--------------------------------------------------")
+    # On ne peut pas modifier une tuple directement, il faut creer une nouvelle tuple
+    chiffre = chiffre[:3] + (12,) + chiffre[3:]
+    print(chiffre)
+
