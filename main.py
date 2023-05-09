@@ -173,7 +173,15 @@ if __name__ == '__main__':
     for cle, valeur in chiffres.items():
         print(f"{cle} : {valeur}")
 
-
+    #5 Supprimer l'element a la cle numero 2
+    print("\n5) Supprimer l'element a la cle numero 2")
+    print("--------------------------------------------------")
+    chiffres.pop("2")
+    print(chiffres)
     
+    #6 Afficher l'element dont la cle est  5
+    print("\n6) Affichage de l'element dont la cle est 5")
+    print("--------------------------------------------------")
+    print(chiffres["5"])
 
     
