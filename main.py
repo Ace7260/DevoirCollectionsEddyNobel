@@ -156,5 +156,10 @@ if __name__ == '__main__':
     print("\n1) Affichage du dictionnaire")
     print("--------------------------------------------------")
     print(chiffres)
+    
+    #2 Affichage seulement des cles
+    print("\n2) Affichage des cles seulement")
+    print("--------------------------------------------------")
+    print(chiffres.keys())
 
     
