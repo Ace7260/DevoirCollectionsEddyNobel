@@ -75,3 +75,7 @@ if __name__ == '__main__':
     # Creation d' une tuple de 10 elements de type entier
     chiffre = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     
+    # Affichage des elements de la tuple chiffre
+    print("\nAffichage des elements de la tuple")
+    print("--------------------------------------------------")
+    print(chiffre)
