@@ -66,3 +66,7 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     animaux.clear()
     print(animaux)
+    
+    # #11 Suppression de la liste
+    del animaux
+
