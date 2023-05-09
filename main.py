@@ -142,4 +142,8 @@ if __name__ == '__main__':
     salutation.remove("Hola")
     print(salutation)
     
-   
+    #4 Supprimer le set
+    print("\n4) Suppression du set")
+    print("--------------------------------------------------")
+    del salutation
+    
