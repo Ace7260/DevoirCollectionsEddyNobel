@@ -196,4 +196,7 @@ if __name__ == '__main__':
     copie_dict = chiffres.copy()
     print(copie_dict)
         
-    
+    #9 Afficher les nouveaux elements
+    print("\n9) Affichage des nouveaux elements")
+    print("--------------------------------------------------")
+    print(copie_dict)
