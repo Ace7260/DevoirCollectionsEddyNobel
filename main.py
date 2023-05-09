@@ -89,3 +89,9 @@ if __name__ == '__main__':
     print("\n2) Affichage du contenu de l'element numero 5")
     print("--------------------------------------------------")
     print(chiffre[4])
+    
+    #3) Ordonnancement du tuple
+    print("\n3) Ordonnancement du tuple")
+    print("--------------------------------------------------")
+    chiffre = tuple(sorted(chiffre))
+    print(chiffre)
