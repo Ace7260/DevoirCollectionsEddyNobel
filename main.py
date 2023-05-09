@@ -36,3 +36,9 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     animaux.insert(2, "serpent")
     print(animaux)
+
+    # #6 Suppression de l'element numero 3
+    print("\n6) Suppression de l'element numero 3")
+    print("--------------------------------------------------")
+    animaux.remove("souris")
+    print(animaux)
