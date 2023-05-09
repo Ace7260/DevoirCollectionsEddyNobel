@@ -147,3 +147,9 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     del salutation
     
+     # Question 4
+    print("==========Question 4============")
+    # Creation d' un dictionnaire de 10 elements de type chaîne de caractères
+    chiffres = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit", "9": "neuf", "10": "dix"}
+
+    
