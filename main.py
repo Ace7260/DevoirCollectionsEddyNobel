@@ -119,3 +119,8 @@ if __name__ == '__main__':
     print("\n6) Affichage de la nouvelle tuple")
     print("--------------------------------------------------")
     print(chiffre)
+  
+    # Question 3
+    print("==========Question 3============")
+    # Creation d'un set de 10 elements de type chaine de caractères
+    salutation = {"Bonjour", "Hello", "Hola", "Salut", "Hi", "Ciao", "Ola", "Aloha", "Namaste", "Salam"}
