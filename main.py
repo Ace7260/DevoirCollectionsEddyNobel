@@ -48,3 +48,9 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     del animaux[2]
     print(animaux)
+    
+    # #8 Ordonner la liste
+    print("\n8) Ordonnancement de la liste")
+    print("--------------------------------------------------")
+    animaux.sort()
+    print(animaux)
