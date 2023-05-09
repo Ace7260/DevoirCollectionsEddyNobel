@@ -161,5 +161,12 @@ if __name__ == '__main__':
     print("\n2) Affichage des cles seulement")
     print("--------------------------------------------------")
     print(chiffres.keys())
+    
+    #3 Affichage seulement des valeurs
+    print("\n3) Affichage des valeurs seulement")
+    print("--------------------------------------------------")
+    print(chiffres.values())
+
+    
 
     
