@@ -95,3 +95,15 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     chiffre = tuple(sorted(chiffre))
     print(chiffre)
+    
+    #4) Ajout d' un element a la fin de la tuple
+    print("\n4) Ajout d' un element a la fin de la tuple")
+    print("--------------------------------------------------")
+    # On ne peut pas modifier une tuple directement, il faut creer une nouvelle tuple
+    liste = list(chiffre)
+    # Ajouter un element a la fin de la liste
+    liste.append(4)
+    # Reconvertir la liste en tuple
+    chiffre = tuple(liste)
+    # Affichage du nouveau tuple 
+    print(chiffre) 
