@@ -30,3 +30,9 @@ if __name__ == '__main__':
     print("--------------------------------------------------")
     animaux.append("tortue")
     print(animaux)
+    
+    # #5 Ajout d'un element a l'index numero 2
+    print("\n5) Ajout d'un element a l'index numero 2")
+    print("--------------------------------------------------")
+    animaux.insert(2, "serpent")
+    print(animaux)
