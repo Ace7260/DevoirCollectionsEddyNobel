@@ -166,6 +166,13 @@ if __name__ == '__main__':
     print("\n3) Affichage des valeurs seulement")
     print("--------------------------------------------------")
     print(chiffres.values())
+    
+    #4 Afficher les cles et les valeurs sous le format : Cle : Valeur
+    print("\n4) Affichage des cles et des valeurs sous le format: k:v")
+    print("--------------------------------------------------")
+    for cle, valeur in chiffres.items():
+        print(f"{cle} : {valeur}")
+
 
     
 
